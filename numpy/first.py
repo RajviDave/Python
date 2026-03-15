@@ -24,5 +24,10 @@ print(arr3.shape)
 
 #threeD dimentions 
 arr4=np.array([[[1,2,3],[4,5,6],[7,8,9]],[[1,2,3],[4,5,6],[7,8,9]]])
-print(arr4.ndim)
-print(arr4.shape)
+print(arr4)
+
+#multiple dimentions 
+arr5=np.array([1,2,3,4,5],ndmin=4)
+print(arr5.ndim)
+
+
