@@ -33,4 +33,4 @@ arr5=np.zeros((3,4,3,5,5))
 
 normal_array=[1,2,3,4,5,6,7]
 
-print(normal_array[-4:-1])
+print(normal_array[1:6:2])
