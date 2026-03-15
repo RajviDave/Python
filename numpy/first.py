@@ -29,5 +29,6 @@ print(arr4)
 #multiple dimentions 
 arr5=np.array([1,2,3,4,5],ndmin=4)
 print(arr5.ndim)
+print(arr5[0][1][3])
 
 
