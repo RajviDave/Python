@@ -16,3 +16,4 @@ list.reverse()#it will reverse the order in with list is stored
 list.insert(6,20)#insert element at specific index
 print(len(list))#will return length of list
 print(list)
+
