@@ -17,3 +17,15 @@ list.insert(6,20)#insert element at specific index
 print(len(list))#will return length of list
 print(list)
 
+#question one 
+movies=[]
+for i in range(0,3):
+    movie=input("Enter your movie = ")
+    movies.append(movie)
+
+print(movies)
+
+#question two
+list1=[1,2,3,2,1]
+list2=['abc','abc']
+
