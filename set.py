@@ -27,3 +27,5 @@ set2={'5','6','7','8','4'}
 print(set1.intersection(set2))#it will return us intersection of two sets
 print(set1.union(set2))#it will return union of both sets
 
+marks={("float",89.0),("int",89)}
+print(marks)#way to store same number as different datatype in sets
