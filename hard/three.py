@@ -3,12 +3,9 @@
 
 fruits=["apple", "banana", "apple", "orange", "banana", "apple"]
 final_fruits={}
-number=0
 
 for fruit in fruits:
+    if fruit not in final_fruits:
+        final_fruits[fruit]=fruits.count(fruit)
     
-    number=fruits.count('apple')
-    dict={fruit:number}
-    print(dict)
-
 print(final_fruits)
