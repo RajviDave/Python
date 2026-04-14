@@ -16,3 +16,4 @@ file3.close()
 file4=open("demo.txt",'r+')# the mode will start it's point from first position and over write existing characters
 file4.write("prize")
 file4.close()
+
