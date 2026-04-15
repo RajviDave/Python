@@ -1,3 +1,3 @@
 import os
 
-os.remove("Sample.txt")#to remove file
+os.remove("Sample.txt")#to remove files and merges
